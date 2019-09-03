@@ -4,7 +4,7 @@
 [![HitCount](http://hits.dwyl.io/bbfdev/tscobra-boiler-template.svg)](http://hits.dwyl.io/bbfdev/tscobra-boiler-template)
 
 - [x] Express
-- [x] mongoose odm
+- [x] Sequelize orm
 - [x] Best Practice Structure
 - [x] JWT middleware for authorization
 
@@ -14,7 +14,7 @@
 * [gulp](https://gulpjs.com/) - the streaming build system
 * [eslint](https://eslint.org/) - eslint
 * [morgan](https://github.com/expressjs/morgan#readme) - morgan
-* [mongoose](https://mongoosejs.com/) - mongoose
+* [Sequelize](https://sequelize.org) - sequelize
 
 ## Development mode :
 after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
