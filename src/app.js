@@ -5,7 +5,7 @@ const methodOverride = require("method-override");
 const { name, port } = require("../package.json");
 const cors = require("cors");
 const { erroController } = require("./controller/erroHandlerController");
-
+const authenticated = require("./middlewares/authenticated");
 const app = express();
 
 // server config
@@ -19,8 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(morgan("tiny"));
 
-//const { function } = require('./middleware/<arquivo>')
-//app.use("/users", authenticated);
+app.use("/users", authenticated);
 
 // instancia todas as rotas
 app.use("/", require("./routes"));
