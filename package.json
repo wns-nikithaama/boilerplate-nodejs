@@ -1,0 +1,39 @@
+{
+  "name": "tscobra-node-boilerplate",
+  "port": 6001,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "repository": "https://github.com/bbfdev/tscobra-boiler-template",
+  "scripts": {
+    "start": "gulp",
+    "migrate": "node_modules/.bin/sequelize db:migrate",
+    "test": "gulp eslint"
+  },
+  "keywords": [],
+  "author": "Bruno Borges Furukawa<furukawaborgesbruno@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gulp-eslint": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.1",
+    "require-dir": "^1.2.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2"
+  }
+}
