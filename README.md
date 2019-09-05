@@ -19,6 +19,7 @@
 ## Development mode :
 after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
 ```sh
+  $ gulp migrate
   $ gulp
 ```
 now open http://localhost:3000 to view it in the browser
