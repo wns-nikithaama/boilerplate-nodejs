@@ -1,4 +1,4 @@
-# tscobra-node-boilerplate
+# node-boilerplate
 
 [![Build Status](https://travis-ci.org/bbfdev/tscobra-boiler-template.svg?branch=master)](https://travis-ci.org/bbfdev/tscobra-boiler-template)
 [![HitCount](http://hits.dwyl.io/bbfdev/tscobra-boiler-template.svg)](http://hits.dwyl.io/bbfdev/tscobra-boiler-template)
