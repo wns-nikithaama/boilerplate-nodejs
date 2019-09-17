@@ -1,6 +1,6 @@
 # node-boilerplate
 
-[![Build Status](https://travis-ci.org/bbfdev/tscobra-boiler-template.svg?branch=master)](https://travis-ci.org/bbfdev/tscobra-boiler-template)
+[![Build Status](https://travis-ci.org/bbfdev/boiler-template.svg?branch=master)](https://travis-ci.org/bbfdev/boiler-template)
 [![HitCount](http://hits.dwyl.io/bbfdev/tscobra-boiler-template.svg)](http://hits.dwyl.io/bbfdev/tscobra-boiler-template)
 
 - [x] Express
