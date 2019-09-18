@@ -10,6 +10,6 @@ RUN npm install
 
 COPY . /app/
 
-CMD gulp
+CMD ["npm", "start"]
 
 EXPOSE 5406

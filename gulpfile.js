@@ -13,7 +13,7 @@ gulp.task("eslint", () =>
 
 gulp.task("watch", () => {
   nodemon({
-    script: "src/app.js",
+    script: "src/server.js --ignore __tests__src/server.js",
     ext: "js",
     ignore: ["./node_modules/**"],
     watch: ["src/*"],
