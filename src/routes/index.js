@@ -1,7 +1,15 @@
 const express = require("express");
 const router = express.Router();
 
-const { indexController } = require("../controller/indexController");
+const { indexController } = require("../app/controller/indexController");
+
+// const { User } = require("../models");
+
+// User.create({
+//   name: "Bruno",
+//   email: "bruno@teste.com.br",
+//   password: "1234",
+// });
 
 router.route("/").get(indexController.index);
 
