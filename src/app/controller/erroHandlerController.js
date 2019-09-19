@@ -1,4 +1,4 @@
-const helper = require("../helpers/returnHelper");
+const helper = require("../../helpers/returnHelper");
 
 const erroController = {
   RouteNotFound: (req, res, next) => {

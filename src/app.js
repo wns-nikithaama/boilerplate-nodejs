@@ -2,8 +2,8 @@ const express = require("express");
 const morgan = require("morgan");
 const { name, port } = require("../package.json");
 const cors = require("cors");
-const { erroController } = require("./controller/erroHandlerController");
-const authenticated = require("./middlewares/authenticated");
+const { erroController } = require("./app/controller/erroHandlerController");
+const authenticated = require("./app/middlewares/authenticated");
 
 require("dotenv").config({
   path: process.env.NODE_ENV === "test" ? ".env.test" : ".env",

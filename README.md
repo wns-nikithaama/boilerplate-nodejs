@@ -22,6 +22,8 @@
 * [eslint](https://eslint.org/) - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
 * [gulp](https://gulpjs.com/) - The streaming build system
 * [gulp-nodemon](https://www.npmjs.com/package/gulp-nodemon) - gulp + nodemon + convenience
+* [jest](https://xxxxx.com) - 
+* [cross-env](https://github.com/kentcdodds/cross-env#readme) - Run scripts that set and use environment variables across platforms
 
 ## Development mode :
 after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:

@@ -1,6 +1,5 @@
-const _ = require("lodash");
-const { name, version, description } = require("../../package.json");
-const helper = require("../helpers/returnHelper");
+const { name, version, description } = require("../../../package.json");
+const helper = require("../../helpers/returnHelper");
 
 const indexController = {
   index: (req, res, next) => {

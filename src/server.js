@@ -10,5 +10,5 @@ const server = app.listen(process.env.PORT || 3000, () => {
   console.log(`${name} listening on port ${address.port}!`);
 
   // conexões do websocket
-  io.on("connection", require("./controller/webSocketController"));
+  io.on("connection", require("./app/controller/webSocketController"));
 });
