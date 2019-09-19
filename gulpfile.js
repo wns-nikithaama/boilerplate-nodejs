@@ -13,9 +13,9 @@ gulp.task("eslint", () =>
 
 gulp.task("watch", () => {
   nodemon({
-    script: "src/server.js --ignore __tests__src/server.js",
+    script: "src/server.js",
     ext: "js",
-    ignore: ["./node_modules/**"],
+    ignore: ["./node_modules/**", "__tests__src/server.js"],
     watch: ["src/*"],
   }).on("restart", function() {
     console.log(`Reiniciando ${name}`);
