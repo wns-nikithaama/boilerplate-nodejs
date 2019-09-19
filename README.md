@@ -9,20 +9,18 @@
 * [express](https://expressjs.com) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 * [gulp-eslint](https://github.com/adametry/gulp-eslint#readme) - A gulp plugin for ESLint
 * [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken#readme) - This was developed against draft-ietf-oauth-json-web-token-08. It makes use of node-jws
-* [lodash"](https://xxxxx.com)
-* [moment](https://xxxxx.com)
-* [moment-timezone](https://xxxxx.com)
 * [morgan](https://github.com/expressjs/morgan#readme) - HTTP request logger middleware for node.js
-* [pg](https://xxxxx.com)
-* [pg-hstore](https://xxxxx.com)
-* [require-dir](https://xxxxx.com)
-* [sequelize](https://xxxxx.com)
-* [socket.io](https://xxxxx.com)
-* [socket.io-client](https://xxxxx.com)
+* [pg](https://github.com/brianc/node-postgres) - Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings.
+* [pg-hstore](https://github.com/scarney81/pg-hstore) - A node package for serializing and deserializing JSON data to hstore format
+* [sequelize](https://sequelize.org/) - Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server
+* [socket.io](https://github.com/socketio/socket.io#readme) - Socket.IO enables real-time bidirectional event-based communication
+* [socket.io-client](https://xxxxx.com) - Socket.IO-client enables real-time bidirectional event-based communication
 * [eslint](https://eslint.org/) - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
 * [gulp](https://gulpjs.com/) - The streaming build system
 * [gulp-nodemon](https://www.npmjs.com/package/gulp-nodemon) - gulp + nodemon + convenience
-* [jest](https://xxxxx.com) - 
+* [jest](https://jestjs.io/) - Delightful JavaScript Testing
+* [sqlite3](https://github.com/mapbox/node-sqlite3) - Asynchronous, non-blocking SQLite3 bindings for Node.js.
+* [sequelize-cli](https://github.com/sequelize/cli) - The Sequelize Command Line Interface (CLI)
 * [cross-env](https://github.com/kentcdodds/cross-env#readme) - Run scripts that set and use environment variables across platforms
 
 ## Development mode :
