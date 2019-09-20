@@ -11,7 +11,7 @@ const { indexController } = require("../app/controller/indexController");
 //   password: "1234",
 // });
 
-router.route("/").get(indexController.index);
+router.route("/").all(indexController.index);
 
 router.use("/users", require("./users"));
 

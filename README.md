@@ -23,12 +23,38 @@
 * [sequelize-cli](https://github.com/sequelize/cli) - The Sequelize Command Line Interface (CLI)
 * [cross-env](https://github.com/kentcdodds/cross-env#readme) - Run scripts that set and use environment variables across platforms
 
-## Development mode :
+
+## Getting Started
+The easiest way to get started is to clone the repository:
+```sh
+  # Get the latest snapshot
+  $ git clone https://github.com/bbfdev/boiler-template.git myproject
+
+  # Change directory
+  cd myproject
+
+  # Install NPM dependencies
+  $ npm install
+```
+### Production mode :
+after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
+```sh
+  $ sequelize db:create
+  $ sequelize db:migrate
+  $ npm start
+```
+
+### Development mode :
 after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
 ```sh
   $ sequelize db:create
   $ sequelize db:migrate
   $ gulp
+```
+### Test mode :
+after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
+```sh
+  $ npm test
 ```
 now open http://localhost:5406 to view it in the browser
 

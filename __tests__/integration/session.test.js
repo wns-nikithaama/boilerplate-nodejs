@@ -8,7 +8,6 @@ describe("Authentication", () => {
       password: "1234",
     });
 
-    console.log(user);
     expect(user.email).toBe("bruno@teste.com.br");
   });
 });
