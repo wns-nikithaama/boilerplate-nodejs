@@ -1,12 +1,15 @@
 const express = require("express");
 const morgan = require("morgan");
-const { name, port } = require("../package.json");
 const cors = require("cors");
-const { erroController } = require("./app/controller/erroHandlerController");
+const swaggerJsDoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
+
+const swaggerOptions = require("./swaggerOptions");
 const authenticated = require("./app/middlewares/authenticated");
+const { erroController } = require("./app/controller/erroHandlerController");
 
 require("dotenv").config({
-  path: process.env.NODE_ENV === "test" ? ".env.test" : ".env",
+  path: process.env.NODE_ENV === "test" ? ".env.test" : ".env"
 });
 
 class AppController {
@@ -25,7 +28,12 @@ class AppController {
   }
 
   routes() {
-    this.express.use("/", require("./routes"));
+    this.express.use(
+      "/docs",
+      swaggerUi.serve,
+      swaggerUi.setup(swaggerJsDoc(swaggerOptions))
+    );
+    this.express.use(require("./routes"));
     this.express.use(erroController.RouteNotFound);
   }
 }
