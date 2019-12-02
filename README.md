@@ -13,8 +13,6 @@
 * [pg](https://github.com/brianc/node-postgres) - Non-blocking PostgreSQL client for Node.js. Pure JavaScript and optional native libpq bindings.
 * [pg-hstore](https://github.com/scarney81/pg-hstore) - A node package for serializing and deserializing JSON data to hstore format
 * [sequelize](https://sequelize.org/) - Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server
-* [socket.io](https://github.com/socketio/socket.io#readme) - Socket.IO enables real-time bidirectional event-based communication
-* [socket.io-client](https://xxxxx.com) - Socket.IO-client enables real-time bidirectional event-based communication
 * [eslint](https://eslint.org/) - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
 * [gulp](https://gulpjs.com/) - The streaming build system
 * [gulp-nodemon](https://www.npmjs.com/package/gulp-nodemon) - gulp + nodemon + convenience
