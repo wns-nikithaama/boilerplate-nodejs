@@ -1,4 +1,4 @@
-# node-boilerplate
+# boilerplate-nodejs
 
 [![Build Status](https://travis-ci.org/bbfdev/boiler-template.svg?branch=master)](https://travis-ci.org/bbfdev/boiler-template)
 [![HitCount](http://hits.dwyl.io/bbfdev/tscobra-boiler-template.svg)](http://hits.dwyl.io/bbfdev/tscobra-boiler-template)
